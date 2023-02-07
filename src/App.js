@@ -19,7 +19,7 @@ convertedData = convertedData.map((item, index) => ({ ...item, id: index + 1 }))
 const columns = [
     {
         dataField: "id",
-        text: "#",
+        text: "index",
         sort: true,
         filter: textFilter()
     },
@@ -65,16 +65,23 @@ const App = () => {
                 columns={columns}
                 search
                 pagination={paginationFactory({sizePerPage: 25})}
-                exportCSV
+                exportCSV={ {
+                    fileName: 'depremzedeler.csv',
+                    onlyExportFiltered:true,
+                    exportAll: false,
+                    ignoreHeader: true,
+                    noAutoBOM: false
+                } }
                 filter={ filterFactory() }
+
             >
                 {(props) => (
                     <div>
                         <h3>Afetzede ara</h3>
-                        <ExportCSVButton className="btn btn-success" { ...props.csvProps }>Excel çıktı al</ExportCSVButton>
+                        <ExportCSVButton className="btn btn-success" { ...props.csvProps }>Filtrele/Excel çıktı al</ExportCSVButton>
                         <hr/>
                         <SearchBar {...props.searchProps} />
-                        <ClearSearchButton/>
+                        <ClearSearchButton className="btn btn-warning"/>
                         <BootstrapTable
                             filter={ filterFactory() }
                             { ...props.baseProps }
