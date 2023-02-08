@@ -1,7 +1,23 @@
-### Depremde yardım talep edenlerin detaylıca aranabildiği, sütunlara göre filtrelendiği, filtreye göre veya tamamen excel çıktı alınabildiği statik site depremyardim.comla birleştirilebilir veya bilgi alım sitesi olarak api servisi sağlanırsa ayrı bir şekilde projelendiriliebilir. Her türlü yardıma hazırım.
-https://afetzedeara.web.app
+### Description
+
+Depremde yaralanan hasta insanların, hastane bilgileri durumu hakkında bilgi olan, yardım talep edenlerin detaylıca aranabildiği, sütunlara göre filtrelendiği, filtreye göre veya tamamen excel çıktı alınabildiği statik site depremyardim.comla birleştirilebilir veya bilgi alım sitesi olarak api servisi sağlanırsa ayrı bir şekilde projelendiriliebilir. Her türlü yardıma hazırım.
+https://depremzedeara.com/
 https://github.com/ugrylmz/afetzedeara
 
+## en 
+The static site shows that where people injured in the earthquake, hospital information status, those who request help can be searched in detail, filtered according to columns, can be combined with depremyardim.com, or it can be designed separately if an api service is provided as an information retrieval site. I am ready for any help.
+https://depremzedeara.com/
+https://github.com/ugrylmz/afetzedeara
+
+ For contribution do not hesitate to contact
+ Katkı için iletişime geçmekten çekinmeyin
+ uguryilmaz235@gmail.com 
+ 905330939034
+ 
+ 
+ 
+## For loading dependencies please run 
+### `yarn start`
 ## Available Scripts
 
 In the project directory, you can run:
